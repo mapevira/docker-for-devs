@@ -3,6 +3,6 @@
 set -e
 
 echo "Pulling pchico83/ci..."
-docker pull pchico83/ci > /dev/null
+docker pull rperezvicente/ci > /dev/null
 echo "done!"
 docker-compose build web
