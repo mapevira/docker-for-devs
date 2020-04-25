@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Pulling pchico83/ci..."
+echo "Pulling rperezvicente/ci..."
 docker pull rperezvicente/ci > /dev/null
 echo "done!"
 docker-compose build web
